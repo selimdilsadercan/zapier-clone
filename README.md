@@ -6,9 +6,17 @@
 
 - [x] "npx shadcn-ui@latest init" to initialize shadcn
 - [x] html, body, :root { height: 100% } thing at app/globals.css
+- [x] "npx shadcn-ui@latest add button" to add button
 
-- [ ] "npx shadcn-ui@latest add sonner"
-- [ ] add /providers/toast-provider.tsx and add to /layout.tsx
+- [x] "npm i framer-motion tailwind-merge clsx"
+- [x] copy acernity ui components to /components/ui
+
+- [x] "npx shadcn-ui@latest add sonner"
+- [x] add /providers/toast-provider.tsx and add to /layout.tsx
+
+- [x] "npm install next-themes"
+- [x] add /providers/theme-provider.tsx and wrap layout.tsx's children
+- [x] create ThemeToggle.tsx switch
 
 - [ ] "npm i @clerk/nextjs"
 - [ ] create clerk project
@@ -47,34 +55,11 @@
 
 ---
 
-- primary stack: nextjs13-app-nosrc, react, shadcn, tailwind, clerk, neon, drizzle-orm, react-admin
-- secondary stack: zustand, bun, react-circular-progressbar, react-confetti, react-use
-- ui: font = nunito, icons = lucide
+- primary stack: nextjs13-app-nosrc, react, shadcn, tailwind, clerk, neon, drizzle-orm
+- secondary stack:
+- ui: font = inter, icons = lucide
 - extensions:
 
 ---
 
-- .next içindeki dosyalar app folderının içine page.tsx dışında bir file oluşturunca açılıyor
-- sayfa ile alakalı componentleri app klasörü içinde components folderı olmadan tanımladı
-- gamish tarzda assetler için: https://kenney.nl/
-- bayrak paketi: https://flagpack.xyz/
-- microsoft emoji paketi: https://github.com/microsoft/fluentui-emoji
-- yapay zeka ile ses doyaları için: https://elevenlabs.io/
-- react cache ve revalidatePath ile basit düzey caching yapabiliyoruz
-- drizzle schema'daki elemanları typeof kullanarak alabiliyoruz
-- rid-cols-[repeat(auto-fill,minmax(210px,1fr))] ile auto grid yapabiliyoruz
-- lucide icon kalınlığını stroke-[] vererek ayarlayabiliyosun
-- ayrı ayrı await eklemek yerine hepsini tek seferde Promise.all diyerek fetchliyo
-- normalde .ts dosyasını node ./a.ts diyerek eğer require kullandıysan çalıştırıyosun, ama tsx, tsnode ya da bun kullanabilirsin
-- bun daha windows'a çıkmadı
-- terminal komutlarını package.json'daki scripts'e ekleyerek kısaltabilirsin
-- drizzle'da table ya da sütün isimlerinde conflict yaşandığında sorunu terminalden çözebiliyosun
-- react-use useAudio ile ses çalabiliyosun
-- react-use useKey ile çok daha kolay şekilde shortcutlar oluşturabiliyosun
-- loading state'leri react startTransition ile yapıyor
-- stripe account inceleme, hesap deaktive etmek
-- 3d efektli buton nasıl yapılır
-- react-admin paketi ile hızlı admin paneli yapılıyor
-- react-adminle liste oluştururken Resource içine list kısmına ListGuesser kullanarak geçici bir şey kullanabiliyosun
-- npm run build, npm run dev'de görüntülenmeyen ama vercelda görüntülenen bazı hataları gösteriyor
-- npm run dev çalışırken npm run build yapamıyosun
+- scripts'deki next dev --experimental-https yapınca https olarak localde çalışıyor

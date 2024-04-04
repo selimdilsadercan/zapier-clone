@@ -18,11 +18,11 @@
 - [x] add /providers/theme-provider.tsx and wrap layout.tsx's children
 - [x] create ThemeToggle.tsx switch
 
-- [ ] "npm i @clerk/nextjs"
-- [ ] create clerk project
-- [ ] add .env keys
-- [ ] add providers/clerk-provider.tsx and add wrap layout.tsx's children
-- [ ] add middleware.ts
+- [x] "npm i @clerk/nextjs"
+- [x] create clerk project
+- [x] add .env keys
+- [x] add providers/clerk-provider.tsx and add wrap layout.tsx's children
+- [x] add middleware.ts
 - [ ] make the signin button mode to modal
 
 - [ ] create neon project

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
-const font = Inter({ subsets: ["latin"] });
+const font = DM_Sans({ subsets: ["latin"] });
 
 import ThemeProvider from "@/providers/theme-provider";
 import ToastProvider from "@/providers/toast-provider";

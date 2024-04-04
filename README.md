@@ -56,10 +56,11 @@
 ---
 
 - primary stack: nextjs13-app-nosrc, react, shadcn, tailwind, clerk, neon, drizzle-orm
-- secondary stack:
-- ui: font = inter, icons = lucide
+- secondary stack: tsparticles
+- ui: font = DM_Sans, icons = lucide
 - extensions:
 
 ---
 
 - scripts'deki next dev --experimental-https yapınca https olarak localde çalışıyor
+- backdrop-blur-lg ile camsı stil elde edebilirsin

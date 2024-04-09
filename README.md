@@ -20,10 +20,10 @@
 
 - [x] "npm i @clerk/nextjs"
 - [x] create clerk project
-- [x] add .env keys
+- [x] add .env keys and .env after sign out shits
 - [x] add providers/clerk-provider.tsx and add wrap layout.tsx's children
 - [x] add middleware.ts
-- [ ] make the signin button mode to modal
+- [x] add app/(auth) and add select-org
 
 - [ ] create neon project
 - [ ] copy connection string as DATABASE_URL to .env
